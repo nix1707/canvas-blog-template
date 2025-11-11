@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Canvas</title>
+  </head>
+
+  <body>
+    <header class="header" data-aos="fade-down">
+      <nav class="navbar">
+        <h1 class="navbar__logo" data-aos="zoom-in">THE CANVAS BLOG.</h1>
+        <ul class="navbar__menu" data-aos="fade-left" data-aos-delay="200">
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Latest</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Trending</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Art</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Design</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Music</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Podcast</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero" data-aos="fade-up">
+      <div class="hero__header" data-aos="zoom-in-up" data-aos-delay="200">
+        <div class="hero__content">
+          <h1 class="hero__title" data-aos="fade-up" data-aos-delay="300">
+            THE CANVAS
+          </h1>
+          <p class="hero__subtitle" data-aos="fade-right" data-aos-delay="400">
+            Blog about <br />
+            art <br />
+            music <br />
+            design
+          </p>
+          <button class="menu-button">
+            <img src="./public/assets/icons/menu.svg" alt="" />
+          </button>
+        </div>
+        <div class="hero__social" data-aos="flip-left" data-aos-delay="500">
+          <button class="social-button">
+            <img
+              class="social-button__icon"
+              src="./public/assets/icons/spotify.png"
+              alt="Spotify"
+            />
+          </button>
+          <button class="social-button">
+            <img
+              class="social-button__icon"
+              src="./public/assets/icons/soundcloud.png"
+              alt="Soundcloud"
+            />
+          </button>
+        </div>
+      </div>
+      <article class="article-card" data-aos="fade-up" data-aos-delay="300">
+        <div
+          class="article-card__content"
+          data-aos="fade-right"
+          data-aos-delay="400"
+        >
+          <span class="article-card__date">11/11/2025</span>
+          <h1 class="article-card__title">
+            The Timeless Allure of Film Photography
+          </h1>
+          <span class="article-card__read-time">8 min read</span>
+          <p class="article-card__excerpt">
+            In the digital age, where cameras are in everyone's pocket, the
+            resurgence of film photography might seem surprising. Yet, it has
+            evolved from a medium of necessity to a cherished art form. What
+            makes film photography so enduringly relevant in a world dominated
+            by pixels?
+          </p>
+          <ul class="tag-list">
+            <li class="tag">
+              <span class="tag__text">Trends</span>
+            </li>
+            <li class="tag">
+              <span class="tag__text">Photography</span>
+            </li>
+            <li class="tag">
+              <span class="tag__text">Film</span>
+            </li>
+          </ul>
+        </div>
+        <img
+          class="article-card__image"
+          src="./public/assets/images/foggy-tree.jpg"
+          alt="Foggy tree - Film Photography"
+          data-aos="zoom-in-left"
+          data-aos-delay="400"
+        />
+      </article>
+    </section>
+    <section class="podcast-section" data-aos="fade-up">
+      <div class="podcast-section__container">
+        <div class="episode-list">
+          <img
+            src="./public/assets/images/singer.jpg"
+            class="episode-list__cover"
+            alt="The Creative Pulse podcast cover"
+            data-aos="zoom-in"
+          />
+          <div
+            class="episode-list__content"
+            data-aos="fade-left"
+            data-aos-delay="200"
+          >
+            <span class="episode-list__label">Podcast</span>
+            <h2 class="episode-list__title">The Creative Pulse</h2>
+            <ul class="episode-list__items">
+              <li class="episode-item">
+                <p class="episode-item__title">Art In the City</p>
+                <div class="episode-item__controls">
+                  <img
+                    src="./public/assets/icons/play.png"
+                    class="episode-item__play-icon"
+                    alt="Play"
+                  />
+                  <span class="episode-item__duration">0:54</span>
+                </div>
+              </li>
+              <li class="episode-item">
+                <p class="episode-item__title">
+                  Is Film Photography really making difference
+                </p>
+                <div class="episode-item__controls">
+                  <img
+                    src="./public/assets/icons/play.png"
+                    class="episode-item__play-icon"
+                    alt="Play"
+                  />
+                  <span class="episode-item__duration">0:54</span>
+                </div>
+              </li>
+              <li class="episode-item">
+                <p class="episode-item__title">
+                  Behind the scenes of Galleries
+                </p>
+                <div class="episode-item__controls">
+                  <img
+                    src="./public/assets/icons/play.png"
+                    class="episode-item__play-icon"
+                    alt="Play"
+                  />
+                  <span class="episode-item__duration">0:54</span>
+                </div>
+              </li>
+              <li class="episode-item">
+                <p class="episode-item__title">Culture Online</p>
+                <div class="episode-item__controls">
+                  <img
+                    src="./public/assets/icons/play.png"
+                    class="episode-item__play-icon"
+                    alt="Play"
+                  />
+                  <span class="episode-item__duration">0:54</span>
+                </div>
+              </li>
+              <li class="episode-item">
+                <p class="episode-item__title">Music As Therapy</p>
+                <div class="episode-item__controls">
+                  <img
+                    src="./public/assets/icons/play.png"
+                    class="episode-item__play-icon"
+                    alt="Play"
+                  />
+                  <span class="episode-item__duration">0:54</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="podcast-cta" data-aos="zoom-in" data-aos-delay="300">
+          <h1 class="podcast-cta__heading">Have You Heard Our Podcast Yet?</h1>
+          <button class="podcast-cta__button">Playlist</button>
+        </div>
+      </div>
+    </section>
+    <section class="content-section" data-aos="fade-up">
+      <div class="content-section__grid">
+        <div class="section-header-card">
+          <h2 class="section-header-card__title">Spotlight on Artists</h2>
+          <div class="section-header-card__nav">
+            <button class="nav-button nav-button--prev">
+              <img src="./public/assets/icons/arrow.png" alt="Previous" />
+            </button>
+            <button class="nav-button nav-button--next">
+              <img src="./public/assets/icons/arrow.png" alt="Next" />
+            </button>
+          </div>
+        </div>
+
+        <article class="content-card" data-aos="fade-up" data-aos-delay="100">
+          <img
+            class="content-card__image"
+            src="./public/assets/images/artist_1.png"
+            alt="Leo Hart"
+          />
+          <div class="content-card__body">
+            <ul class="tag-list">
+              <li class="tag">
+                <span class="tag__text">Music</span>
+              </li>
+              <li class="tag">
+                <span class="tag__text">City</span>
+              </li>
+              <li class="tag">
+                <span class="tag__text">Personality</span>
+              </li>
+            </ul>
+            <span class="content-card__date">September 10, 2024</span>
+            <h3 class="content-card__title">
+              Soundscapes of the City: An Interview with Leo Hart
+            </h3>
+            <span class="content-card__read-time">8 min read</span>
+            <p class="content-card__excerpt">
+              Explore the world of sound artist Leo Hart, who transforms urban
+              noise into captivating musical compositions.
+            </p>
+          </div>
+        </article>
+
+        <article class="content-card" data-aos="fade-up" data-aos-delay="200">
+          <img
+            class="content-card__image"
+            src="./public/assets/images/artist_2.jpg"
+            alt="Eva Martinez"
+          />
+          <div class="content-card__body">
+            <ul class="tag-list">
+              <li class="tag">
+                <span class="tag__text">Personality</span>
+              </li>
+              <li class="tag">
+                <span class="tag__text">Art</span>
+              </li>
+              <li class="tag">
+                <span class="tag__text">Artist</span>
+              </li>
+            </ul>
+            <span class="content-card__date">November 7, 2024</span>
+            <h3 class="content-card__title">
+              Eva Martinez. The Visionary Behind the Canvas
+            </h3>
+            <span class="content-card__read-time">16 min read</span>
+            <p class="content-card__excerpt">
+              Discover the creative journey of Eva Martinez, a self-taught
+              painter whose bold use of color and texture redefines modern art.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="newsletter" data-aos="fade-up">
+      <div class="newsletter__subscription">
+        <div
+          class="subscription-option"
+          data-aos="fade-right"
+          data-aos-delay="100"
+        >
+          <span class="subscription-option__label">Every Saturday</span>
+          <h2 class="subscription-option__title">Weekly Highlights</h2>
+          <p class="subscription-option__description">
+            Stay updated with a curated roundup of the week's most talked-about
+            content.
+          </p>
+          <div class="subscription-option__checkbox">
+            <input
+              type="checkbox"
+              checked
+              name="weekly-subscribe"
+              id="weekly"
+            />
+            <label for="weekly">Subscribe</label>
+          </div>
+        </div>
+        <div
+          class="subscription-option"
+          data-aos="fade-left"
+          data-aos-delay="100"
+        >
+          <span class="subscription-option__label">Last week of the month</span>
+          <h2 class="subscription-option__title">Monthly Digest</h2>
+          <p class="subscription-option__description">
+            Take a step back and savor a well-rounded recap of the month's
+            highlights.
+          </p>
+          <div class="subscription-option__checkbox">
+            <input
+              type="checkbox"
+              checked
+              name="monthly-subscribe"
+              id="monthly"
+            />
+            <label for="monthly">Subscribe</label>
+          </div>
+        </div>
+      </div>
+      <div class="newsletter__signup" data-aos="zoom-in" data-aos-delay="200">
+        <h2 class="newsletter__title">Sign Up for Our Newsletter</h2>
+        <input
+          class="newsletter__input"
+          placeholder="Enter your email here"
+          type="email"
+        />
+        <button class="newsletter__button">Sign Up</button>
+      </div>
+    </section>
+    <section class="content-section" data-aos="fade-up">
+      <div class="content-section__header">
+        <h2 class="section-header-card__title">Captured Moments</h2>
+        <div class="section-header-card__nav">
+          <button class="nav-button nav-button--prev">
+            <img src="./public/assets/icons/arrow.png" alt="Previous" />
+          </button>
+          <button class="nav-button nav-button--next">
+            <img src="./public/assets/icons/arrow.png" alt="Next" />
+          </button>
+        </div>
+      </div>
+      <div class="content-section__grid">
+        <article class="content-card" data-aos="fade-up" data-aos-delay="100">
+          <img
+            class="content-card__image"
+            src="./public/assets/images/scene.png"
+            alt="Leo Hart"
+          />
+          <div class="content-card__body">
+            <ul class="tag-list">
+              <li class="tag">
+                <span class="tag__text">Performance</span>
+              </li>
+              <li class="tag">
+                <span class="tag__text">Recommendations</span>
+              </li>
+              <li class="tag">
+                <span class="tag__text">Digest</span>
+              </li>
+            </ul>
+            <span class="content-card__date">November 10, 2024</span>
+            <h3 class="content-card__title">
+              Unmissable Shows This Season. Our recomendations
+            </h3>
+            <span class="content-card__read-time">14 min read</span>
+            <p class="content-card__excerpt">
+              Get ready for an unforgettable cultural experience with our
+              handpicked selection of shows you can't afford to miss this
+              season.
+            </p>
+          </div>
+        </article>
+
+        <article class="content-card" data-aos="fade-up" data-aos-delay="200">
+          <img
+            class="content-card__image"
+            src="./public/assets/images/drama.png"
+            alt="Eva Martinez"
+          />
+          <div class="content-card__body">
+            <ul class="tag-list">
+              <li class="tag">
+                <span class="tag__text">Recommendations</span>
+              </li>
+              <li class="tag">
+                <span class="tag__text">Sculpture</span>
+              </li>
+              <li class="tag">
+                <span class="tag__text">Art</span>
+              </li>
+            </ul>
+            <span class="content-card__date">November 10, 2024</span>
+            <h3 class="content-card__title">
+              Hidden Gems: Lesser-Known Exhibits Worth Exploring
+            </h3>
+            <span class="content-card__read-time">14 min read</span>
+            <p class="content-card__excerpt">
+              Discover the beauty of art off the beaten path with our guide to
+              hidden gems in the world of exhibitions.
+            </p>
+          </div>
+        </article>
+        <article class="content-card" data-aos="fade-up" data-aos-delay="300">
+          <img
+            class="content-card__image"
+            src="./public/assets/images/photography.png"
+            alt="Eva Martinez"
+          />
+          <div class="content-card__body">
+            <ul class="tag-list">
+              <li class="tag">
+                <span class="tag__text">Sculpture</span>
+              </li>
+              <li class="tag">
+                <span class="tag__text">Inspo</span>
+              </li>
+              <li class="tag">
+                <span class="tag__text">Architecture</span>
+              </li>
+            </ul>
+            <span class="content-card__date">November 9, 2024</span>
+            <h3 class="content-card__title">
+              Design Diaries: Where to Find Inspiration
+            </h3>
+            <span class="content-card__read-time">6 min read</span>
+            <p class="content-card__excerpt">
+              From sculptural forms in urban spaces to architectural marvels and
+              timeless art, discover where designers, artists turn for ideas.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <footer class="footer" data-aos="fade-up">
+      <div class="footer__content">
+        <div class="footer__branding">
+          <h1 class="footer__title">THE CANVAS</h1>
+        </div>
+        <div class="footer__social">
+          <button class="social-button">
+            <img
+              class="social-button__icon"
+              src="./public/assets/icons/instagram.png"
+              alt="instagram"
+            />
+          </button>
+          <button class="social-button">
+            <img
+              class="social-button__icon"
+              src="./public/assets/icons/youtube.png"
+              alt="youtube"
+            />
+          </button>
+          <button class="social-button">
+            <img
+              class="social-button__icon"
+              src="./public/assets/icons/facebook.png"
+              alt="facebook"
+            />
+          </button>
+        </div>
+      </div>
+      <div class="footer__divider"></div>
+      <div class="footer__nav">
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Terms & Conditions</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Cookie & Policy</a>
+          </li>
+        </ul>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Latest</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Trending</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Art</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Design</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Music</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Podcast</a>
+          </li>
+        </ul>
+        <ul class="navbar__menu">
+          <li class="navbar__item personal_link">
+            <img src="./public/assets/icons/github.png" />
+            <a
+              class="navbar__link"
+              href="https://github.com/nix1707"
+              target="_blank"
+            >
+              MADE WITH
+              <img src="./public/assets/icons/heart.png" alt="" /> BY VOXY</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
